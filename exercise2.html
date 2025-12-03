@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updated Tailwind Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white dark:bg-gray-900">
+
+    <main class="m-4 sm:flex sm:flex-row sm:items-center"> 
+
+        <img 
+            src="https://cdn.wallpapersafari.com/21/76/v26KTO.jpg" 
+            alt="RDJ"
+            class="rounded-2xl transition-all duration-200 hover:scale-110 
+            sm:w-60 sm:h-72"
+        />
+
+        <!-- SECTION TASK -->
+        <section class="sm:mx-5">
+
+            <!-- PARAGRAPH TASK -->
+            <p class="font-bold my-3 
+                md:text-lg       /* 1.125rem for >=768px */
+                lg:text-2xl      /* 1.5rem for >=1024px */
+                dark:text-white  /* White text in Dark Mode */
+            ">
+                Robert Downey Jr. is an American actor and producer. His career 
+                has been characterized by critical and popular success in his youth, 
+                followed by a period of substance abuse and legal troubles, 
+                before a resurgence of commercial success later in his career.
+            </p>
+
+            <!-- BUTTON TASK -->
+            <button 
+                class="py-2 px-4 rounded-md font-bold transition-all duration-300
+                bg-black text-yellow-300 dark:bg-yellow-300 dark:text-black 
+
+                sm:text-lg        /* 1.125rem for >=640px */
+                lg:text-2xl       /* 1.5rem for >=1024px */
+
+                sm:hover:bg-yellow-300    /* hover bg only >= 640px */
+                sm:hover:text-black       /* hover text only >= 640px */
+            ">
+                Visit Instagram
+            </button>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

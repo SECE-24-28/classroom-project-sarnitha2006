@@ -1,0 +1,35 @@
+/* Common Box Model for all sections */
+.box {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+}
+
+/* Header */
+header {
+    background: #f0f0f0;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background: lightblue;
+    padding: 40px;
+    text-align: center;
+}
+
+/* About Section */
+.about {
+    background: #ffe8a1;
+}
+
+/* Features Section */
+.features {
+    background: #d3ffd3;
+}
+
+/* Footer */
+footer {
+    background: #ddd;
+    text-align: center;
+}
